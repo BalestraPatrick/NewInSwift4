@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered'>
+    <pages>
+        <page name='CodableAndDecodable'/>
+        <page name='Strings'/>
+        <page name='Ranges'/>
+        <page name='Keypath'/>
+        <page name='GenericSubscript'/>
+        <page name='DictonaryAndSet'/>
+    </pages>
+</playground>
