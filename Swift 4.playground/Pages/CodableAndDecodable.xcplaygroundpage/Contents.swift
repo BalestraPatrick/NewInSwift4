@@ -20,7 +20,7 @@ let jsonString = String(data: jsonEncoded, encoding: .utf8)
 
 // JSON Decoding
 let jsonDecoder = JSONDecoder()
-jsonDecoder.dateDecodingStrategy = .formatted(dateFormatter)
+//jsonDecoder.dateDecodingStrategy = .formatted(dateFormatter)
 let decodedWWDC = try jsonDecoder.decode(Conference.self, from: jsonEncoded)
 
 
@@ -30,10 +30,3 @@ plistEncoder.outputFormat = .xml
 let xmlEncoded = try plistEncoder.encode(wwdc)
 let xmlString = String(data: xmlEncoded, encoding: .utf8)
 
-let range = 0...
-print(range)
-for i in range {
-    print("\(i)")
-}
-print("fff ")
-//: [Next](@next)
